@@ -1,0 +1,40 @@
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.Cabeça {
+  background-color: rgb(59, 59, 220);
+  width: 100%;
+  text-align: center;
+  height: 150px;
+}
+
+.Cabeça h1 {
+  position: relative;
+  margin: 0;
+  padding: 20px 0;
+  font-size: 48px;
+  color: #fff;
+}
+
+.Cabeça h1::after {
+  content: "";
+  display: block;
+  width: 300px;        
+  height: 4px;
+  background-color: #dbdbdb;
+  margin: 12px auto 0; 
+  border-radius: 4px;  
+}
+
+.Cabeça p {
+  margin: 10px 0 0;
+  font-size: 20px;
+  color: aliceblue;
+  padding-bottom: 25px;
+}
+
+
+
